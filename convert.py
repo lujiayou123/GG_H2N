@@ -27,7 +27,7 @@ for name in tqdm(names):
                     roman_level = Num2Roman(int(level))
                     after_tournament_roman = after_tournament.replace(level, roman_level)
                     lines[i] = u"PokerStars Hand #20" + hand_id + "Tournament" + after_tournament_roman
-                    print(lines[i])
+                    # print(lines[i])
                     pass
                 else:
                     # cash game
